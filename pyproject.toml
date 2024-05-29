@@ -12,6 +12,7 @@ google-cloud-aiplatform = "^1.52.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.4.2"
+isort = "^5.13.2"
 
 [build-system]
 requires = ["poetry-core"]

@@ -1,9 +1,8 @@
-from typing import Optional
 import os
+from typing import Optional
 
-from vertexai.language_models import TextEmbeddingInput, TextEmbeddingModel
 import vertexai
-
+from vertexai.language_models import TextEmbeddingInput, TextEmbeddingModel
 
 EMBEDDING_MODEL_NAME = "text-embedding-004"
 PROJECT_NAME = os.environ.get("PROJECT_NAME", "paper-vector-search")
